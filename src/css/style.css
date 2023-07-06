@@ -126,7 +126,7 @@ footer {
     background-image: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     max-width: 100%;
   }
 
@@ -139,6 +139,10 @@ footer {
   main {
     display: block;
     text-align: center;
+  }
+
+  main .imagem-destaque{
+    margin: 0px 10px;
   }
 
   aside .container-description {
@@ -161,6 +165,10 @@ footer {
     aside .container-description .title{
         font-size: 25px;
     }
+
+    .imagem-destaque{
+        margin: 0 0;
+      }
 
     aside .container-description p{
         font-size: 18px;
